@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 23px;
+    width: 92%;
+}
+
+
+.navbarLogo img {
+    width: 120px;
+}
+
+.navProp{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 33px;
+    padding: auto;
+}
+
+.navProp a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.navProp a.active{ 
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 773px) {
+    .navbar{
+        padding: 0;
+    }
+    .navbarLogo img {
+        width: 85px;
+        margin-left: 20px;
+    } 
+}

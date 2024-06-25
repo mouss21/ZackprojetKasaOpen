@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 108px;
+    margin-top: 15px;
+}
+
+.Apro {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.corpPag{
+    padding: 2rem 4rem;
+}
+
+.imagBan img {
+   width: 100%;
+   height: 10rem;
+   object-fit: cover;
+   border-radius: 0.8rem;
+}
+
+@media (max-width: 700px) { 
+    .about { padding-inline: auto; }
+}

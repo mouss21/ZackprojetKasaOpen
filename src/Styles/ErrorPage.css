@@ -1,0 +1,48 @@
+
+.commun-error {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.error span {
+    font-size: 288px;
+    color: #ff6060;
+}
+
+.error h4 {
+    font-size: 30px;
+    margin: 30px 0;
+    color: #ff6060;
+    align-items: center;
+}
+
+.error a {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.error p {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 773px) {
+    .error span {
+        font-size: 180px;
+    } 
+}
+@media screen and (max-width: 400px) {
+    .error {
+        margin: auto 0; 
+    }
+    .error span { 
+        font-size: 96px; 
+    }
+    .error h4 {   
+        font-size: 18px; 
+    }
+    .error a {    
+        font-size: 14px; 
+    }
+}

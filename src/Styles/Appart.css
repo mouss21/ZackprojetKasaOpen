@@ -1,0 +1,29 @@
+.Appart{
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, #912f2f, #ff6060);
+    flex-basis: 30%;
+    display: grid;
+    align-items: end;
+    min-width: 200px;
+    min-height: 250px;
+}
+.Appart a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.AppTitle {
+    width: 25%;
+    margin-inline-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: white;
+}
+
+
+@media screen and (max-width: 773px) {
+    .Appart{
+        flex-basis: 100%;
+    } 
+}
