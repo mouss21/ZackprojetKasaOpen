@@ -16,7 +16,7 @@ function Card() {
   // cherche l'id dans le fichier logements.json
   const record = records.find(element => element.id === idLogement)
   
-  // si l'URL à été modifié manuellement, redirection vers la page d'erreur
+  
  
 
   // récupère la liste des équipements
