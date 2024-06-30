@@ -20,16 +20,17 @@
     color: white;
     height: 46px; 
     text-align: center;
+    margin: 0 auto;
 }
 
 .Text_footer p { 
     margin-top: 10px; 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 773px) {
     .Text_footer p { 
         font-size: 15px; 
         width: 132.59px;
-        margin-left: 190.09px;
+        
     }
 }

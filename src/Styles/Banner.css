@@ -10,6 +10,8 @@
     margin-bottom: 35px;
     margin-top: 35px;
     background-position: center;
+    background-color: rgb(18 7 7 / 63%);
+    background-blend-mode: darken;
 }
 
 h5 {
@@ -18,37 +20,18 @@ h5 {
     justify-content: center;
     margin: 0;
     height: 100%;
-    font-size: 22px;
+    font-size: 27px;
     color: white;
-}
-
-.banner-commun {
-    margin-top: 30px;
-    height: 223px;
-    color: var(--colorWhite);
-    border-radius: 25px;
-    box-shadow: 0px 5px 15px rgb(66, 58, 58);
-}
-
-.banner2 {
-    background: url("../assets/Background.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 25px;
 }
 
 @media (max-width: 768px) {
     .banner h1 { 
         font-size: 1rem; 
     }
-    .banner, .banner2 {
-        margin-top: 0px;
-        height: 111px;
-        background-position:left;
+    .banner{
+        background-position: center;
     }
-    .banner2, .banner, .banner-commun { 
-        border-radius: 10px; 
-    }
+
 }
 
 

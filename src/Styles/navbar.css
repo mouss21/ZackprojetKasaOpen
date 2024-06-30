@@ -37,4 +37,9 @@
         width: 85px;
         margin-left: 20px;
     } 
+
+    .navProp a{ 
+        font-size: 12px;
+        text-transform: uppercase;
+    }
 }
